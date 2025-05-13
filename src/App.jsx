@@ -110,7 +110,7 @@ function App() {
   useEffect(() => {
     if (isPlaying) {
       audioRef.current.play();
-      audioRef.current.volume = 0.5;
+      audioRef.current.volume = 0.2;
     } else {
       audioRef.current.pause();
     }
